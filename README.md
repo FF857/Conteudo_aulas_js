@@ -1,4 +1,4 @@
 
-#Curso JavaScript :shipit:
+# Curso JavaScript :shipit:
 
-Repositório para adicionar todo o conteudo do curso de JavaScript aprendido 
+Repositório para adicionar todo o conteudo do curso de JavaScript aprendido.
