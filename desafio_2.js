@@ -1,10 +1,10 @@
 
 /* go to Torres beach fuel value */
 
-let Type_fuel = "Ethanol";      /* pode colocar input*/
+let Type_fuel = "Gasoline";      /* pode colocar input*/
 let ethanol_value = 3.40;
-let gasoline_value = 4.91;
-let km_for_l= 11;
+let gasoline_value = 4.77;
+let km_for_l= 15;
 let distance_Km = 195;
 let l_consumption;
 
@@ -24,5 +24,6 @@ if (Type_fuel === "Gasoline"){
 } else {
     console.log("incorrect value!")
 }
+
 
 

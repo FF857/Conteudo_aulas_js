@@ -1,0 +1,7 @@
+Faça um algoritmo que dado as tres notas tiradas por um aluno na faculdade, calcule e imprima a 
+sua média e sua classificação conforme tabela abaixo:
+
+classificação:
+- Se tirar uma nota menor que 5, imprima reprovado;
+- Se tirar uma nota de 5 a 7, imprima recuperação;
+- Se tirar uma nota acima de 7, imprima aprovado;
