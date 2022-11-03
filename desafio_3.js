@@ -3,8 +3,6 @@ let result1 = 7;
 let result2 = 6.5;
 let result3 = 9.1;
 
-let the_answer; 
-
 let result4 = (result1 + result2 + result3)/ 3;
 
 if (result4 <5){
