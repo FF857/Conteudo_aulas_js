@@ -22,4 +22,4 @@ function imc1(peso, altura){
     }
 }
 
-imc1(65, 1.65);
+imc1(65, 1.74);
