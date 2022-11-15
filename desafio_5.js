@@ -6,16 +6,15 @@
     mais de duas = 4
 */
 
+var valorEtiqueta = 100;
+var tipoPagamento = 4;
+
 function aplicaDesconto(valorProduto, valorDesconto){
     return (valorProduto - ((valorProduto * valorDesconto) / 100));
 }
 function aplicaJuros(valorProduto, valorJuros){
     return (valorProduto + ((valorProduto * valorJuros) / 100));
 }
-
-var valorEtiqueta = 100;
-var tipoPagamento = 4;
-
 
 if(tipoPagamento == 1){
 
@@ -39,5 +38,5 @@ if(tipoPagamento == 1){
 }else {
 
     console.log("Tipo de pagamento incorreto!");
-    
+
 }
