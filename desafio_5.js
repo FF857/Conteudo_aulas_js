@@ -6,9 +6,10 @@
 
 function aplicaJuros(valorProduto, parcelaProduto, tipoPagamento){
     if(parcelaProduto == 1 && tipoPagamento == 1){
-        desconto = ((valorProduto * 10) / 100);
+        return (valorProduto - ((valorProduto * 10)/100));
+        /*desconto = ((valorProduto * 10) / 100);
         valorProduto = (valorProduto - desconto);
-        console.log(valorProduto);
+        console.log(valorProduto);*/
     } else if(parcelaProduto == 1 && tipoPagamento == 2){
         desconto = ((valorProduto * 15) / 100);
         valorProduto = (valorProduto - desconto);
@@ -23,5 +24,5 @@ function aplicaJuros(valorProduto, parcelaProduto, tipoPagamento){
 
 }
 
-aplicaJuros(100, 1, 2);
+aplicaJuros(100, 1, 1);
 
