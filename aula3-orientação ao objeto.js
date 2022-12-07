@@ -1,13 +1,16 @@
-const felipe = {
-    idade: 21,
-    peso: 65,
+class Pessoas {
+
+    nome;
+    idade;
     
-    descrever: function () {
-        console.log(`Minha idade é  ${this.idade}, meu peso é ${this.altura}` );
+    descrever() {
+    console.log(`Meu nome é  ${this.nome}, minha idade é ${this.idade}` );        
     }
 }
 
-felipe.altura = 1.75;
-felipe.cor = "pardo"; 
+const felipe = new Pessoas();
+felipe.nome = "Felipe S Ferreira";
+felipe.idade = 21;
+
 
 felipe.descrever();
