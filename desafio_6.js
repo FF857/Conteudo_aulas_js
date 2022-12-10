@@ -13,7 +13,7 @@ class Carro{
 
     }
 
-    calcularGastoDePercurso (distanciaEmKm, precoCombustivel){
+    calcularGastoDePercurso (distanciaEmKm, precoCombustivel, gastoMedioPorKm){
 
         return distanciaEmKm * this.gastoMedioPorKm * precoCombustivel;
 
