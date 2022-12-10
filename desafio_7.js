@@ -18,12 +18,24 @@ class Pessoa {
     calculaImc (){
 
         return this.peso / (this.altura * this.altura);
-        
+
+    }
+
+    classificaImc(){
+
+        const imc = this.calculaImc();
+
+        if(imc >= 21){
+
+        }
     }
 
 }
 
-const felipe = new Pessoa("Felipe", 64, 1.74);
+const jose = new Pessoa("José", 70, 1.75);
+
+console.log(jose.calculaImc());
+
+const felipe = new Pessoa("Felipe", 64, 1.75);
 
 console.log(felipe.calculaImc());
-
