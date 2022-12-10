@@ -6,12 +6,18 @@ class Pessoa {
     peso;
     altura;
 
-    calculaIMC(peso, altura){
+    constructor (nome, peso, altura){
 
+        this.nome = nome;
         this.peso = peso;
         this.altura = altura;
+        
+    }
 
-        return imc = peso / (altura * altura);
+
+    calculaImc (){
+
+        return this.peso / (this.altura * this.altura);
         
     }
 
@@ -19,4 +25,4 @@ class Pessoa {
 
 const felipe = new Pessoa("Felipe", 64.00, 174);
 
-console.log(felipe.calculaIMC(64.00, 174));
+console.log(felipe);
