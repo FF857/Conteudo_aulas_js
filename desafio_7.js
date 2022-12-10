@@ -23,6 +23,7 @@ class Pessoa {
 
 }
 
-const felipe = new Pessoa("Felipe", 64.00, 174);
+const felipe = new Pessoa("Felipe", 64, 1.74);
 
-console.log(felipe);
+console.log(felipe.calculaImc());
+
