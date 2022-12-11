@@ -1,12 +1,24 @@
 
 
-/*const alunos = ["Maria", "João", "Pedro"];
+/*
+const alunos = ["Maria", "João", "Pedro"];
 
 alunos.push("Gabriel");
 
 alunos[4] = "Julia";
 
-console.log(alunos[3]);*/
+console.log(alunos[3]);
+
+---
+
+const alunos = [];
+
+alunos.push("Teste");
+alunos.push(10);
+
+console.log(alunos);
+
+*/
 
 
 const notas = [];
