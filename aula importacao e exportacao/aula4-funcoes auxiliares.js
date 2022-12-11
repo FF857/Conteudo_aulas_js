@@ -1,0 +1,11 @@
+
+
+function gets(){
+
+
+}
+
+function print(){
+
+    
+}
