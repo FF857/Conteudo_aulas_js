@@ -1,4 +1,14 @@
 
+
+/*const alunos = ["Maria", "João", "Pedro"];
+
+alunos.push("Gabriel");
+
+alunos[4] = "Julia";
+
+console.log(alunos[3]);*/
+
+
 const notas = [];
 
 notas.push[8];
